@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Story time</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    body {
+      background-color: #ffff;
+      
+      font-size: x-large;
+      background-image: url(pronBG.png);
+      min-height: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+      background-size: cover;
+    }
+
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .image-container {
+      position: relative;
+      width: 15%;
+      height: 250px;
+      margin: 15px;
+    }
+
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      border: 5px solid #00f3f7;
+      border-radius: 10px;
+    }
+
+    .image-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      height: 100%;
+      background-color:#00f3f7;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      border-radius: 6px;
+    }
+
+    .image-container:hover .image-overlay {
+      opacity: 1;
+    }
+
+    .image-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #87c100;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2em;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      color: #6b9600;
+    }
+    h3 {
+      padding-left: 10%;
+      font-size: 1.3em;
+      font-family:cursive;
+      color: #486400;
+      text-decoration: underline;
+    }
+    .home-icon {
+      position: absolute;
+      top: 30px;
+      left: 30px;
+      font-size: 30px;
+      color: #443015;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <a href="contenu.html" class="home-icon">
+      <i class="fas fa-home"></i>
+    </a>
+    <h1>Hey there !!</h1>
+    <h2>Here are some basic words to learn !</h2>
+    <h3>And now , REPEAT after me !!</h3>
+    <div class="container">
+      <a href="abcPAGE.php"><div class="image-container">
+        <img src="./mc/alpha.jpg" alt="alpha">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's learn the Alphabets!</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="animalsPAGE.php">
+        <img src="./mc/animals.jpg" alt="animals">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's discover each animal's name !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="actPAGE.php">
+        <img src="./mc/activities.jpg" alt="activities">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's discover our daily activities !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="colorsPAGE.php">
+        <img src="./mc/colors.png" alt="colors">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's learn different colors !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="bodypartsPAGE.php">
+        <img src="./mc/bodyparts.jpg" alt="bodyparts">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's discover our body !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="fruitsPAGE.php">
+        <img src="./mc/Cutefruit.jpg" alt="Cutefruit">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's learn different fruits !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="legumesPAGE.php">
+        <img src="./mc/Happyvegetable.jpg" alt="Happyvegetable">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's learn different vegetables !</h3>
+
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="numbersPAGE.php">
+        <img src="./mc/numbers.jpg" alt="numbers">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's count together !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="schoolPAGE.php">
+        <img src="./mc/school.jpg" alt="school">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's discover our daily use supplies  !</h3>
+          </div>
+        </div>
+      </a>
+      </div>
+      <div class="image-container">
+        <a href="shapesPAGE.php">
+        <img src="./mc/shapes.jpg" alt="shapes">
+        <div class="image-overlay">
+          <div class="image-content">
+            <h3>Let's learn different shapes !</h3>
+          </div>
+        </div>
+      </div>
+    </a>
+    </div>
+  </div>
+</body>
+</html>

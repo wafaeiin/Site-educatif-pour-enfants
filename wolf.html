@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>The wolf and the lamb story </title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+<style>
+    body {
+        background-color: #FFF6EA;
+        position: relative;
+        background-image: url("wolfy.png");
+        background-repeat: no-repeat;
+        background-size: 80%;
+        background-position: center center;
+        padding-top: 60%;
+        }
+
+        
+
+        .home-icon {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        font-size: 30px;
+        color: #443015;
+        
+        
+        }
+    .button-right {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #5a3f1c;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .button-left {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      display: inline-block;
+      border-radius: 6px;
+      background-color: #5a3f1c;
+      border: none;
+      color: #FFFFFF;
+      text-align: center;
+      font-size: 20px;
+      padding: 10px;
+      width: 200px;
+      transition: all 0.5s;
+      cursor: pointer;
+      margin: 5px;
+    }
+
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+
+    .button:hover span {
+      padding-right: 25px;
+    }
+
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+    <div >
+        <a href="contenu.html" class="home-icon">
+          <i class="fas fa-home"></i>
+        </a>
+  <a href="dog.html">
+    <button class="button-right"><span>Next Story</span></button>
+  </a>
+  <a href="hist.html">
+    <button class="button-left"><span>Back to all stories </span></button>
+  </a>
+  </div>
+</body>
+</html>
